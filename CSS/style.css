@@ -1,0 +1,8 @@
+*{
+    background-color: red;
+    color: gold
+}
+
+header a:visited{
+    color: black;
+}
