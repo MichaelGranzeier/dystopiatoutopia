@@ -4,27 +4,69 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Me</title>
+        <title>Articles</Article></title>
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/layout.css">
     </head>
     <body>
-        <header>
-            <A href="index.html"><img src="/images/android-chrome-192x192.png" alt="Hammer and Sickle"></div></A>
-            <H1><H1>Dystopia to Utopia</H1></H1>
+        <header id="header">
+            <div id="Logo"><A href="index.html"><img src="/images/android-chrome-192x192.png" alt="Hammer and Sickle"></A></div>
+            <H1>Dystopia to Utopia</H1>
             <A href="index.html">Home</A>
             <A href="articles.html">Articles</A>
             <A href="aboutme.html">About Me</A>
         </header>
-        <main>
-            <A href="/HTML/Articles/aldrincycler.html">Aldrin Cycler</A><br>
-            <A href="/HTML/Articles/coops.html">Co-ops</A><br>
-            <A href="/HTML/Articles/globaluniversalhealthcare.html">Global Universal Health Care</A><br>
-            <A href="/HTML/Articles/seadragon.html">Sea Dragon</A><br>
-            <A href="/HTML/Articles/universalbasicincome.html">Universal Basic Income</A><br>
+        <main id="main">
+            <div id="items">
+        <!--<section id="article">
+                <h3>template</h3>
+                <p></p>
+                <A href="/HTML/Articles/template.html">Continue Reading</A><br>
+            </section>-->
+            <section id="article0">
+                <h3>Sea Dragon</h3>
+                <div id="artimg"><img src="/images/seaDragon.jpg" alt="Concept of the heavy rocket Sea Dragon"></div>
+                <p></p>
+                <A href="/HTML/Articles/seadragon.html">Continue Reading</A><br>
+            </section>
+            <section id="article1">
+                <h3>Cyclers</h3>
+                <p></p>
+                <A href="/HTML/Articles/cyclers.html">Continue Reading</A><br>
+            </section>
+            <section id="article2">
+                <h3>Communism</h3>
+                <p></p>
+                <A href="/HTML/Articles/communism.html">Continue Reading</A><br>
+            </section>
+            <section id="article3">
+                <h3>Inflatable Space Habitats</h3>
+                <p></p>
+                <A href="/HTML/Articles/inflatablespacehabitats.html">Continue Reading</A><br>
+            </section>
+            <section id="article4">
+                <h3>O'Neill Cylinders</h3>
+                <p></p>
+                <A href="/HTML/Articles/oneillCylinders.html">Continue Reading</A><br>
+            </section>
+            </div>
+            <div class="pagination">
+                <a href="#" onclick="prev()">&laquo;</a>
+                <a class="active" id="page0" href="#">1</a>
+                <a id="page1" href="#">2</a>
+                <a id="page2" href="#">3</a>
+                <a id="page3" href="#">4</a>
+                <a id="page4" href="#">5</a>
+                <a href="#" onclick="next()">&raquo;</a>
+            </div>
         </main>
-        <footer>
-
+        <footer id="footer">
+            <section id="mode">
+                <button id="lightMode" onclick="lm()">Light Mode</button>
+                <button id="darkMode" onclick="dm()">Dark Mode</button>
+                <button id="communistMode" onclick="cm()">Communist Mode</button>
+            </section>
         </footer>
+        <script src="/JS/index.js"></script>
     </body>
 </html>

@@ -1,3 +1,10 @@
+:root{
+  background-image: url("/Images/backgroundImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header{
     max-width: 1000px;
     height: 100px;
@@ -6,15 +13,37 @@ header{
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0;
 }
 
-main,
+header a{
+    margin-right: 10px;
+}
+
+main{
+    max-width: 960px;
+    min-height: 500px;
+    margin: 0px auto;
+    padding: 50px 20px;
+}
+
 footer{
-    margin: 100px auto;
     max-width: 1000px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+footer section{
+   padding-left: 10px;
 }
 
 #Logo img{
-    height: 75px;
+    height: 100px;
+}
+
+#artimg{
+    max-width: 980px;
+}
+
+.pagination{
+    text-align: center;
 }

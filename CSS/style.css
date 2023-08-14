@@ -1,8 +1,43 @@
-*{
+#communistMode{
     background-color: red;
     color: gold
 }
 
-header a:visited{
+#lightMode{
     color: black;
+    background-color: white;
 }
+
+#darkMode{
+    color: white;
+    background-color: black;
+}
+
+#lightMode,
+#darkMode,
+#communistMode{
+    box-shadow: 1px 1px 1px 1px #333;
+}
+
+#lightMode:hover,
+#darkMode:hover,
+#communistMode:hover{
+    box-shadow: 1px 1px 5px 1px gold;
+}
+
+/* Pagination links */
+.pagination a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}

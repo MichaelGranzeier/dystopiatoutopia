@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="/css/layout.css">
     </head>
     <body>
-        <header>
-            <A href="/HTML/index.html"><img src="/images/android-chrome-192x192.png" alt="Hammer and Sickle"></div></A>
-            <H1><H1>Dystopia to Utopia</H1></H1>
+        <header id="header">
+            <div id="Logo"><A href="index.html"><img src="/images/android-chrome-192x192.png" alt="Hammer and Sickle"></A></div>
+            <H1>Dystopia to Utopia</H1>
             <A href="/HTML/index.html">Home</A>
             <A href="/HTML/articles.html">Articles</A>
             <A href="/HTML/aboutme.html">About Me</A>
         </header>
-        <main>
+        <main id="main">
             <H3>Global Universal Health Care</H3>
             <p>Author: </p>
             <p>Date: </p>
@@ -25,8 +25,13 @@
             <br>
             <P></P>
         </main>
-        <footer>
-
+        <footer id="footer">
+            <section id="mode">
+                <button id="lightMode" onclick="lm()">Light Mode</button>
+                <button id="darkMode" onclick="dm()">Dark Mode</button>
+                <button id="communistMode" onclick="cm()">Communist Mode</button>
+            </section>
         </footer>
+        <script src="/JS/index.js"></script>
     </body>
 </html>
