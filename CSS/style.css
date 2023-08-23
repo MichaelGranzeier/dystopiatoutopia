@@ -13,31 +13,45 @@
     background-color: black;
 }
 
+#patreon{
+    color: red;
+}
+
 #lightMode,
 #darkMode,
-#communistMode{
+#communistMode,
+#patreon{
     box-shadow: 1px 1px 1px 1px #333;
 }
 
+
+
 #lightMode:hover,
 #darkMode:hover,
-#communistMode:hover{
+#communistMode:hover,
+#patreon:hover{
     box-shadow: 1px 1px 5px 1px gold;
 }
 
 /* Pagination links */
 .pagination a {
-    float: left;
-    padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
-  }
-  
-  /* Style the active/current link */
-  .pagination a.active {
+}
+
+/* Style the active/current link */
+.pagination a.active {
     background-color: dodgerblue;
     color: white;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .pagination a:hover:not(.active) {background-color: #ddd;}
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: rgba(173, 216, 230, 0.615);}
+
+.flex-item{
+    border: 1px solid #666;
+}
+
+#search{
+    margin-right: 10px;
+}

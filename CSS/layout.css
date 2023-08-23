@@ -36,14 +36,29 @@ footer section{
    padding-left: 10px;
 }
 
+#patreon{
+    float: right;
+    margin-right: 10px;
+}
+
 #Logo img{
     height: 100px;
 }
 
-#artimg{
+.artimg{
     max-width: 980px;
 }
 
 .pagination{
     text-align: center;
+}
+
+.pagination a{
+    padding: 8px 16px;
+    text-align: center;
+}
+
+#items{
+    display: flex;
+    flex-direction: column;
 }
